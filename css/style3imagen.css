@@ -1,0 +1,23 @@
+.column1{
+	width: 31%;
+	height: 300px;
+	border-radius: 15px;
+	float: left;
+	border: 1px solid #fff;
+}
+.transicion{
+	-webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+	-webkit-border-radius:15px;
+
+	-moz-transition-property:width,height,-moz-transform,background,font-size,opacity;
+	-moz-transition-duration:1s,1s,1s,1s,1s,1s;
+
+	opacity: 0.8;
+}
+
+.transicion:hover{
+	-moz-transform: rotate(360deg) scale(1.2);
+	-webkit-transform: rotate(360deg) scale(1.2);
+	opacity: 1;
+	z-index: 1;
+}

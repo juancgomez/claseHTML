@@ -1,0 +1,67 @@
+@font-face{
+	font-family: sacred;
+	src:url("../fonts/sacred.otf");
+}
+@font-face{
+	font-family: hyon;
+	src:url("../fonts/hyon.ttf");
+}
+.sacred{
+	font-family: sacred;
+	color: #000;
+}
+.hyon{
+	font-family: hyon;
+	color: #000;
+}
+
+h1{
+	text-align: center;	
+	font-size: 40px;
+	text-transform: uppercase;
+
+}
+.image{
+	float: right;
+	width: 150px;
+	height: 150px;
+}
+.texto{
+	color: #fff;
+	text-align: justify;
+	font-size: 17px;
+	margin: 20px;
+}
+.textoTitulo{
+	color: #F8F8FA;
+	text-align: center;
+	margin: 20px;
+}
+.capaTitulo{
+	width: 1200px;
+	position: relative;
+	border-radius: 25px;
+	background-color: #231FC8;
+	margin-left: 50px;
+}
+.capaIzq{
+	width: 600px;
+	position: absolute;
+	margin-left: 40px;
+	border-radius: 25px;
+	background-color: #fda573;
+	box-shadow: 10px 10px 20px #c6c6c6;
+
+}
+.capaDer{
+	width: 600px;
+	position: absolute;
+	margin-left: 690px;
+	border-radius: 25px;
+	background-color: #3632AB;
+	box-shadow: 10px 10px 20px #c6c6c6;
+}
+.imagenFondo{
+	position: fixed;
+	margin-left: 400px;
+}

@@ -1,0 +1,56 @@
+@font-face{
+	font-family: hyon;
+	src:url("../fonts/hyon.ttf");
+}
+
+.hyon{
+	font-family: hyon;
+	color: #fff;
+}
+body{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #A41111;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+#content{
+	overflow: auto;
+	height: 100%;
+}
+#nav,#feature,#footer{
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px;
+}
+.column1,.column2,.column3{
+	background-color: #efefef;
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+ul{
+	margin-left: 300px;
+	align:center;
+}
+li{
+	display: inline;
+	padding: 5px;
+	border: 0.6px solid #7C7C7C;
+}
+#nav li{
+	font-family: QuicksandBook, Helvetica, Arial,sans-serif;
+	background-color: #fff;
+}
+a{
+	color: #666565;
+	text-decoration: none;
+}
+a:hover{
+	color: #A41111;
+	text-decoration: underline;
+}
+
+
